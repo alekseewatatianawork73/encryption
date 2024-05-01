@@ -21,8 +21,8 @@ def hide(choice):
         lbl_k.grid(row=2, column=2, ipadx=4, ipady=4, padx=6, pady=6, sticky="nsew")
         k.grid(row=3, column=2, ipadx=4, ipady=4, padx=6, pady=6, sticky="nsew")
     else:
-        lbl_k.grid_remove()
-        k.grid_remove()
+        lbl_k.grid_remove()  # удаляем текстовую метку для ключа
+        k.grid_remove()      # удаляем поле ввода ключа
 
 
 
